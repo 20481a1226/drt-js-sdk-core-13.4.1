@@ -273,7 +273,7 @@ describe("test smart contract results parser", () => {
             topics: [
                 new TransactionEventTopic("ZGVwb3NpdA=="),
                 new TransactionEventTopic("cmzC1LRt1r10pMhNAnFb+FyudjGMq4G8CefCYdQUmmc="),
-                new TransactionEventTopic("AAAADFdFR0xELTAxZTQ5ZAAAAAAAAAAAAAAAAWQ="),
+                new TransactionEventTopic("AAAADFdSRVdBLTAxZTQ5ZAAAAAAAAAAAAAAAAWQ="),
             ],
             dataPayload: new TransactionEventData(Buffer.from("AAAAAAAAA9sAAAA=", "base64")),
         });
